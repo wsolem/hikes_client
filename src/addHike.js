@@ -62,7 +62,7 @@ class AddHike extends Component {
         body: JSON.stringify(submitObject)
     };
 
-    fetch('http://localhost:8080/hikes', requestOptions)
+    fetch('http://localhost:8080/api/hikes', requestOptions)
         .then(async response => {
             const data = await response.json();
 

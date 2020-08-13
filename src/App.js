@@ -32,7 +32,7 @@ class App extends Component {
   // I want to put this somewhere else
   componentDidMount() {
     // update to use Promise.all and fetch both hikes and user
-    fetch('http://localhost:8080/hikes')
+    fetch('http://localhost:8080/api/hikes')
     .then(res => res.json())
     .then((data) => {
       this.setState({hikes: data})
