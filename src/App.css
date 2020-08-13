@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+
+}
+
+ul {
+  list-style: none;
+}
+
+.pageWrapper {
+  margin: 10px;
+  background-color: forestgreen;
+  padding: 10px;
+
+}
+
+.hikeWrapper {
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+  margin: 10px 5px;
+  padding: 30px 10px 10px;
+  position: relative;
+  width: 400px;
+}
+
+.button {
+  border:#000 1px solid;
+  width: 60px;
+}
+
+.editHike {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.deleteHike {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #f00;
+}
